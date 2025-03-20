@@ -1,0 +1,37 @@
+📌 Project Requirements
+This project consists of a React frontend and an ASP.NET Core 8 backend. Below are the system requirements and dependencies needed to run the application successfully.
+
+🛠 System Requirements
+Before running the project, ensure you have the following installed on your system:
+
+1️⃣ General Requirements
+Node.js (v18+) – Used for running the frontend. Download Node.js
+
+NPM (Node Package Manager) – Comes with Node.js.
+
+.NET 8 SDK – Required to build and run the backend. Download .NET 8
+
+MS SQL Server – Database for backend storage.
+
+Git – For version control and managing the repository.
+
+
+2️⃣ Frontend Requirements (React)
+The frontend is built using React and requires several dependencies for UI, state management, form validation, and API handling. These dependencies are listed in the package.json file.
+
+Required Packages:
+React & DOM Rendering → react, react-dom
+
+Routing → react-router-dom
+
+State Management → react-redux, @reduxjs/toolkit, redux-persist
+
+UI & Styling → bootstrap, bootstrap-icons, reactstrap, framer-motion
+
+Forms & Validation → formik, yup
+
+HTTP Requests → axios
+
+Testing → @testing-library/react, @testing-library/user-event
+
+Other Utilities → jquery, web-vitals
