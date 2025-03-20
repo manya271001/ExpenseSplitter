@@ -1,0 +1,10 @@
+# Ignore Visual Studio-specific files
+.vs/
+bin/
+
+
+# Ignore dependency directories
+node_modules/
+
+
+

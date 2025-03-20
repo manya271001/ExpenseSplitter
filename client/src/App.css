@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.name{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+ 
+}
+.navbarlist{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:50px;
+}
+.element{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.element:hover{
+  color: purple;
+  text-decoration: underline;
+} 
+.nav-btn{
+  background-color: palevioletred;
+  border-radius: 10px;
+}
+.nav-btn:hover{
+  background-color: plum;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 10px;
+}
+/* Make navbar fixed at the top */
+
+
+/* Make the carousel cover the entire viewport */
+.carousel {
+  height: 100vh;
+}
+
+/* Make the carousel images fully cover the viewport */
+.carousel-img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Center text within the carousel */
+.carousel-caption {
+  bottom: 20%;
+  color: white;
+  text-align: center;
+}
+
+ /* Remove any body scroll */
+
+.box {
+  border-radius: 12px;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.amount-lent {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.amount-owed {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+}
+
+.groups-joined {
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+}

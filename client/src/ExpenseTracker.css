@@ -1,0 +1,66 @@
+.expense-tracker-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f3f4f6, #dfe9f3);
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+.groups-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.group-card {
+  background: linear-gradient(to right, #e64988, #87244f);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.group-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #d48518;
+}
+
+.group-members,
+.group-balance {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f8f9fa;
+}
+
+.add-expense-btn {
+  background: #ff6b6b;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-expense-btn:hover {
+  background: #e63946;
+}

@@ -1,0 +1,131 @@
+.groups-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  color: #49b5d0;
+  text-align: center;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: linear-gradient(to right, #7746a0, #753073);
+  color: white;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.delete-btn, .invite-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.delete-btn {
+  background-color: #4f085fd3;
+  color: white;
+}
+
+.invite-btn {
+  background-color: #062c45;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.invite-btn:hover {
+  background-color: #2980b9;
+}
+
+
+/* .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.purple-pink-theme {
+  border: 3px solid #9c27b0;
+  background: linear-gradient(135deg, #9c27b0, #e91e63);
+  color: white;
+}
+
+.modal h2 {
+  margin-bottom: 15px;
+}
+
+.modal label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.modal input {
+  width: 80%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.send-btn {
+  background: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.close-btn {
+  background: #f44336;
+  color: white;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.send-btn:hover, .close-btn:hover {
+  opacity: 0.8;
+} */

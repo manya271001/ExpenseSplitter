@@ -1,0 +1,44 @@
+/* ManageExpense.css */
+
+/* Centering the container */
+.expense-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.5), 0 6px 20px rgba(138, 43, 226, 0.5);
+}
+
+/* Styling the table */
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th, .expense-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Add alternating row colors */
+.expense-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.expense-table th {
+  background-color: #8a2be2; /* Purple */
+  color: white;
+  font-size: 1.1rem;
+}
+
+.expense-table td {
+  font-size: 1rem;
+}
+
+.expense-table tr:hover {
+  background-color: #ff66b2; /* Pinkish hover effect */
+}

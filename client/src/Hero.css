@@ -1,0 +1,21 @@
+
+/* Make the carousel cover the entire viewport */
+.carousel {
+  height: 100vh;
+}
+
+/* Make the carousel images fully cover the viewport */
+.carousel-img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Center text within the carousel */
+.carousel-caption {
+  bottom: 20%;
+  color: white;
+  text-align: center;
+}
+
+ 
