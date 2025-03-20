@@ -55,7 +55,7 @@ If someone prefers to manually execute the database script instead of using migr
 
 1️⃣ Locate the SQL Script
 The SQL script is available in:
-server/Database/setup.sql
+Database/script.sql
 2️⃣ Run the SQL Script in SSMS
 Open SQL Server Management Studio (SSMS).
 Connect to your SQL Server instance.
